@@ -1,0 +1,28 @@
+{
+  "name": "@datagica/tokenize",
+  "version": "0.0.0",
+  "description": "Tokenize",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --harmony --bail --require chai tests/*.js"
+  },
+  "author": "Julian Bilcke <julian.bilcke@datagica.com>",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datagica/tokenize.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-fuzzy": "^1.6.1",
+    "deep-eql": "^2.0.1",
+    "lodash": "^4.17.4",
+    "mocha": "^3.3.0",
+    "underscore": "^1.8.3"
+  }
+}
